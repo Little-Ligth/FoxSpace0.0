@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #111827;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #1f2937;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #374151;
+}
+
+main {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.user-box,
+.create-post,
+.post {
+  background: #1f2937;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #374151;
+  color: white;
+  outline: none;
+}
+
+textarea {
+  resize: none;
+  height: 120px;
+}
+
+button {
+  background: #f59e0b;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.post-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.post-text {
+  margin-bottom: 15px;
+  white-space: pre-wrap;
+}
+
+.hashtag {
+  color: #60a5fa;
+  font-weight: bold;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.action-btn {
+  background: transparent;
+  border: 1px solid #f59e0b;
+  color: #f59e0b;
+}
+
+.comment {
+  background: #374151;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.comment-input {
+  margin-top: 10px;
+}
